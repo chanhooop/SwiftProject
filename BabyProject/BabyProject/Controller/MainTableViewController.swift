@@ -5,7 +5,7 @@
 //  Created by 이찬호 on 2021/07/25.
 //
 
-// 찬호님 화이팅 찬호님이 git 팀장이세요~!
+// 찬호님 될 것 같아요! 역시 깃 팀장~!
 import UIKit
 
 class MainTableViewController: UITableViewController {
