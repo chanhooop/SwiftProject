@@ -12,7 +12,7 @@
         <!--메인화면-->
         <scene sceneID="XsG-qY-gei">
             <objects>
-                <tableViewController id="WXQ-Zl-NQC" customClass="MainTableTableViewController" customModule="BabyProject" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="WXQ-Zl-NQC" customClass="MainTableViewController" customModule="BabyProject" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="3WC-e5-VET">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -78,7 +78,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="25h-TM-omg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-123" y="-3477"/>
+            <point key="canvasLocation" x="-49" y="-3286"/>
         </scene>
         <!--디테일 화면-->
         <scene sceneID="aUv-uk-bKt">
@@ -310,7 +310,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pxw-eu-Bue" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1001" y="-3477"/>
+            <point key="canvasLocation" x="-929" y="-3286"/>
         </scene>
     </scenes>
     <resources>

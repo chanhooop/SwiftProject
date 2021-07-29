@@ -1,17 +1,14 @@
 //
-//  MainTableTableViewController.swift
+//  TableViewController.swift
 //  BabyProject
 //
-//  Created by 이찬호 on 2021/07/25.
+//  Created by 이찬호 on 2021/07/29.
 //
 
 import UIKit
 
-class MainTableViewController: UITableViewController {
-    @IBOutlet var tvMainView: UITableView!
-    
-    var feedItem: NSArray = NSArray()
-    
+class TableViewController: UITableViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,8 +18,6 @@ class MainTableViewController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
-    
-
 
     // MARK: - Table view data source
 
@@ -34,13 +29,13 @@ class MainTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return 0
+    }
 
     /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
 
         // Configure the cell...
-        
 
         return cell
     }
@@ -91,6 +86,4 @@ class MainTableViewController: UITableViewController {
     }
     */
 
-
-    }
 }

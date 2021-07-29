@@ -15,6 +15,7 @@
 		9F59606A26B278A000187E6E /* ItemAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F59606926B278A000187E6E /* ItemAddViewController.swift */; };
 		9F59606C26B2790D00187E6E /* ItemPriceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F59606B26B2790D00187E6E /* ItemPriceViewController.swift */; };
 		9F59606E26B27A7400187E6E /* ItemDetailSellerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F59606D26B27A7400187E6E /* ItemDetailSellerViewController.swift */; };
+		9F59607026B2841A00187E6E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F59606F26B2841A00187E6E /* TableViewController.swift */; };
 		9FD5076C26AD647800391E99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD5076B26AD647800391E99 /* AppDelegate.swift */; };
 		9FD5076E26AD647800391E99 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD5076D26AD647800391E99 /* SceneDelegate.swift */; };
 		9FD5077326AD647800391E99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FD5077126AD647800391E99 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 		9F59606926B278A000187E6E /* ItemAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemAddViewController.swift; sourceTree = "<group>"; };
 		9F59606B26B2790D00187E6E /* ItemPriceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemPriceViewController.swift; sourceTree = "<group>"; };
 		9F59606D26B27A7400187E6E /* ItemDetailSellerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailSellerViewController.swift; sourceTree = "<group>"; };
+		9F59606F26B2841A00187E6E /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		9FD5076826AD647800391E99 /* BabyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FD5076B26AD647800391E99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FD5076D26AD647800391E99 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				9F59606926B278A000187E6E /* ItemAddViewController.swift */,
 				9F59606B26B2790D00187E6E /* ItemPriceViewController.swift */,
 				9F59606D26B27A7400187E6E /* ItemDetailSellerViewController.swift */,
+				9F59606F26B2841A00187E6E /* TableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 				9F59606826B2779B00187E6E /* SearchResultViewController.swift in Sources */,
 				9F59606A26B278A000187E6E /* ItemAddViewController.swift in Sources */,
 				E02D177326AEA9F300CA917C /* CategoryViewController.swift in Sources */,
+				9F59607026B2841A00187E6E /* TableViewController.swift in Sources */,
 				9FD5078026AD650F00391E99 /* MainTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
