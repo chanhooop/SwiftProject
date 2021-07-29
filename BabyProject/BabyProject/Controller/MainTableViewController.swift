@@ -11,7 +11,11 @@ class MainTableViewController: UITableViewController {
     @IBOutlet var tvMainView: UITableView!
     
     var feedItem: NSArray = NSArray()
+
     // test
+
+    //jujuju
+
     override func viewDidLoad() {
         super.viewDidLoad()
 //test29
